@@ -8,7 +8,7 @@ AppBar header(context, {bool isAppTitle=false, String strTitle, disappearedBackB
     ),
     automaticallyImplyLeading: disappearedBackButton ? false : true,
     title: Text(
-      isAppTitle ? "BuddiesGram" : strTitle,
+      isAppTitle ? "Pilgrimage" : strTitle,
       style: TextStyle(
         color: Colors.white,
         fontFamily: isAppTitle ? "Signatra" : "",
